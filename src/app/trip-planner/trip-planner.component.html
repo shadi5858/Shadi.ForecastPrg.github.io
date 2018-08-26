@@ -1,0 +1,35 @@
+
+<div class="container">
+    <h1>Trip Planner</h1>
+
+      <select (change)="showInfo($event.target.value)">
+        <option *ngFor="let city of cities" value={{city.name}}>
+            {{city.name}}
+        </option>
+    </select>
+
+    <div class="card">
+        <div class="card-body">
+            <span *ngIf="wiki">
+                {{wiki.extract}}
+            </span>
+                </div>
+      </div>
+     
+      <div class="card">
+        <div class="card-body">
+
+        <div class="list-inline">
+            <div class="col-lg-2 list-inline-item" *ngFor="let w of forecastList">
+                <div>
+                        <h5>{{w.date | date:'yyyy-MM-dd'}}</h5>
+                        <p>{{w.temp}} °C</p>
+                        <p>{{w.sky}}</p>
+                        <img src="{{w.img}}">
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+  </div>
