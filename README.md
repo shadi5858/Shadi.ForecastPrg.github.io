@@ -5,6 +5,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## ScreenShot
+This is a screen shot of the Project. It gets all the information from Wikipedia and openAppWeather free web services.
+
+
+<img width="900" alt="demo" src="https://user-images.githubusercontent.com/39388687/44631621-eaa26800-a92b-11e8-9755-1bde1084f04e.PNG">
 
 ## Code scaffolding
 
