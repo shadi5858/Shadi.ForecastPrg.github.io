@@ -1,4 +1,3 @@
-import { cleanSession } from "selenium-webdriver/safari";
 
 export class WeatherModel{
     city:City;
