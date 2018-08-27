@@ -83,7 +83,6 @@ export class TripPlannerComponent implements OnInit,OnDestroy {
         this.forecastList.push({date: t ,temp: list[i].main.temp, sky: list[i].weather[0].description, type:list[i].weather[0].main, img:icon});
       }
     }
-    console.log(this.forecastList,'list');
 
   }
 
